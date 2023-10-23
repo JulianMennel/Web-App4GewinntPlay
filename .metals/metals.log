@@ -1,0 +1,490 @@
+2023.10.20 11:57:45 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.20 11:57:46 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.10.20 11:57:49 INFO  running 'C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ju200\AppData\Local\Temp\metals6803429139257921384\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.10.20 11:57:50 INFO  sbt thinks that server is already booting because of this exception:
+2023.10.20 11:57:50 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8289393873222426757_lock, error 5
+2023.10.20 11:57:50 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2023.10.20 11:57:50 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2023.10.20 11:57:50 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:152)
+2023.10.20 11:57:50 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:78)
+2023.10.20 11:57:50 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:78)
+2023.10.20 11:57:50 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:86)
+2023.10.20 11:57:50 ERROR 	at sbt.xMain$.run(Main.scala:123)
+2023.10.20 11:57:50 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023.10.20 11:57:50 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2023.10.20 11:57:50 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2023.10.20 11:57:50 ERROR 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+2023.10.20 11:57:50 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2023.10.20 11:57:50 ERROR 	at sbt.xMain.run(Main.scala:47)
+2023.10.20 11:57:50 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2023.10.20 11:57:50 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2023.10.20 11:57:50 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2023.10.20 11:57:50 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2023.10.20 11:57:50 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2023.10.20 11:57:50 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2023.10.20 11:57:50 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2023.10.20 11:57:50 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2023.10.20 11:57:50 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2023.10.20 11:57:50 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2023.10.20 11:57:50 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2023.10.20 11:57:50 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8289393873222426757_lock, error 5
+2023.10.20 11:57:50 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2023.10.20 11:57:50 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2023.10.20 11:57:50 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2023.10.20 11:57:50 ERROR 	... 23 more
+2023.10.20 11:57:50 INFO  time: ran 'sbt bloopInstall' in 1.24s
+2023.10.20 11:57:50 ERROR sbt command failed: C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ju200\AppData\Local\Temp\metals6803429139257921384\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.10.20 11:57:59 INFO  Shutting down server
+2023.10.20 11:57:59 INFO  shutting down Metals
+2023.10.20 11:57:59 INFO  Exiting server
+2023.10.20 11:58:06 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.20 11:58:06 WARN  Build server is not auto-connectable.
+2023.10.20 11:58:07 INFO  skipping build import with status 'Failed'
+2023.10.20 11:58:21 INFO  running 'C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ju200\AppData\Local\Temp\metals9626721189939278194\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.10.20 11:58:22 INFO  [info] welcome to sbt 1.9.6 (OpenLogic Java 11.0.18)
+2023.10.20 11:58:23 INFO  [info] loading global plugins from C:\Users\ju200\.sbt\1.0\plugins
+2023.10.20 11:58:26 INFO  [info] loading settings for project web-app4gewinntplay-build-build-build from metals.sbt ...
+2023.10.20 11:58:26 INFO  [info] loading project definition from C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\project
+2023.10.20 11:58:27 INFO  [info] loading settings for project web-app4gewinntplay-build-build from metals.sbt ...
+2023.10.20 11:58:27 INFO  [info] loading project definition from C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project
+2023.10.20 11:58:28 INFO  [success] Generated .bloop\web-app4gewinntplay-build-build.json
+2023.10.20 11:58:28 INFO  [success] Total time: 1 s, completed 20.10.2023, 11:58:29
+2023.10.20 11:58:28 INFO  [info] loading settings for project web-app4gewinntplay-build from metals.sbt,plugins.sbt ...
+2023.10.20 11:58:28 INFO  [info] loading project definition from C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project
+2023.10.20 11:58:31 INFO  [success] Generated .bloop\web-app4gewinntplay-build.json
+2023.10.20 11:58:31 INFO  [success] Total time: 2 s, completed 20.10.2023, 11:58:31
+2023.10.20 11:58:33 INFO  [info] loading settings for project root from build.sbt ...
+2023.10.20 11:58:33 INFO  [info]   __              __
+2023.10.20 11:58:33 INFO  [info]   \ \     ____   / /____ _ __  __
+2023.10.20 11:58:33 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2023.10.20 11:58:33 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2023.10.20 11:58:33 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2023.10.20 11:58:33 INFO  [info]       /_/               /____/
+2023.10.20 11:58:33 INFO  [info] 
+2023.10.20 11:58:33 INFO  [info] Version 2.9.0-RC3 running Java 11.0.18
+2023.10.20 11:58:33 INFO  [info] 
+2023.10.20 11:58:33 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2023.10.20 11:58:33 INFO  [info] https://www.playframework.com/sponsors
+2023.10.20 11:58:33 INFO  [info] 
+2023.10.20 11:58:36 INFO  [success] Generated .bloop\root.json
+2023.10.20 11:58:36 INFO  [success] Generated .bloop\root-test.json
+2023.10.20 11:58:36 INFO  [success] Total time: 3 s, completed 20.10.2023, 11:58:37
+2023.10.20 11:58:37 INFO  time: ran 'sbt bloopInstall' in 16s
+2023.10.20 11:58:37 INFO  Attempting to connect to the build server...
+2023.10.20 11:58:37 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 11:58:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 11:58:39 INFO  Attempting to connect to the build server...
+2023.10.20 11:58:39 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 11:58:39 INFO  Attempting to connect to the build server...
+2023.10.20 11:58:39 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 11:58:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 11:58:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 11:58:39 INFO  time: Connected to build server in 2.5s
+2023.10.20 11:58:39 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.20 11:58:39 INFO  time: Imported build in 0.15s
+2023.10.20 11:58:43 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 11:58:47 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 11:58:47 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 11:58:47 INFO  time: indexed workspace in 7.37s
+2023.10.20 12:00:27 INFO  compiling root (7 scala sources and 1 java source)
+2023.10.20 12:00:33 WARN  Unexpected javac output: WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.sourcegraph.shaded.com.sourcegraph.semanticdb_javac.SemanticdbJavacOptions (file:/C:/Users/ju200/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.9.6/semanticdb-javac-0.9.6.jar) to method com.sun.tools.javac.api.BasicJavacTask.getContext()
+WARNING: Please consider reporting this to the maintainers of com.sourcegraph.shaded.com.sourcegraph.semanticdb_javac.SemanticdbJavacOptions
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release.
+2023.10.20 12:00:33 INFO  time: compiled root in 5.86s
+2023.10.20 12:02:15 INFO  Shutting down server
+2023.10.20 12:02:15 INFO  shutting down Metals
+2023.10.20 12:02:15 INFO  Shut down connection with build server.
+2023.10.20 12:02:15 INFO  Shut down connection with build server.
+2023.10.20 12:02:15 INFO  Shut down connection with build server.
+2023.10.20 12:02:15 INFO  Exiting server
+2023.10.20 12:03:09 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.20 12:03:10 INFO  Attempting to connect to the build server...
+2023.10.20 12:03:10 INFO  skipping build import with status 'Installed'
+2023.10.20 12:03:10 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 12:03:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 12:03:10 INFO  Attempting to connect to the build server...
+2023.10.20 12:03:10 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 12:03:10 INFO  Attempting to connect to the build server...
+2023.10.20 12:03:10 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 12:03:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 12:03:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 12:03:11 INFO  time: Connected to build server in 0.64s
+2023.10.20 12:03:11 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.20 12:03:13 INFO  no build target found for C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.20 12:03:14 INFO  time: Imported build in 0.35s
+2023.10.20 12:03:17 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 12:03:19 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 12:03:19 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 12:03:19 INFO  time: indexed workspace in 5.18s
+2023.10.20 12:03:20 INFO  compiling root-test (1 scala source)
+2023.10.20 12:03:20 INFO  time: compiled root-test in 0.51s
+2023.10.20 12:29:08 INFO  time: code lens generation in 2.19s
+Okt. 20, 2023 12:29:56 NACHM. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 55
+2023.10.20 12:30:44 INFO  Shutting down server
+2023.10.20 12:30:44 INFO  shutting down Metals
+2023.10.20 12:30:44 INFO  Shut down connection with build server.
+2023.10.20 12:30:44 INFO  Shut down connection with build server.
+2023.10.20 12:30:44 INFO  Shut down connection with build server.
+2023.10.20 12:30:44 INFO  Exiting server
+2023.10.20 12:30:54 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.20 12:30:55 INFO  Attempting to connect to the build server...
+2023.10.20 12:30:55 INFO  skipping build import with status 'Installed'
+2023.10.20 12:30:55 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 12:30:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 12:30:55 INFO  Attempting to connect to the build server...
+2023.10.20 12:30:55 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 12:30:55 INFO  Attempting to connect to the build server...
+2023.10.20 12:30:55 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 12:30:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 12:30:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 12:30:55 INFO  time: Connected to build server in 0.73s
+2023.10.20 12:30:55 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.20 12:30:58 INFO  no build target found for C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\build.sbt. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.20 12:31:00 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 12:31:02 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 12:31:02 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 12:31:02 INFO  time: indexed workspace in 3.94s
+2023.10.20 12:31:06 INFO  time: code lens generation in 3.4s
+2023.10.20 12:31:06 INFO  time: code lens generation in 3.4s
+2023.10.20 12:31:06 INFO  time: code lens generation in 3.4s
+2023.10.20 12:31:06 INFO  time: code lens generation in 2.86s
+2023.10.20 12:31:10 INFO  Shutting down server
+2023.10.20 12:31:10 INFO  shutting down Metals
+2023.10.20 12:31:10 INFO  Shut down connection with build server.
+2023.10.20 12:31:10 INFO  Shut down connection with build server.
+2023.10.20 12:31:10 INFO  Shut down connection with build server.
+2023.10.20 12:31:10 INFO  Exiting server
+2023.10.20 14:21:12 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.20 14:21:14 INFO  Attempting to connect to the build server...
+2023.10.20 14:21:14 INFO  skipping build import with status 'Installed'
+2023.10.20 14:21:14 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 14:21:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 14:21:14 INFO  Attempting to connect to the build server...
+2023.10.20 14:21:14 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 14:21:14 INFO  Attempting to connect to the build server...
+2023.10.20 14:21:14 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 14:21:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 14:21:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 14:21:14 INFO  time: Connected to build server in 0.52s
+2023.10.20 14:21:14 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.20 14:21:16 INFO  no build target found for C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\build.sbt. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.20 14:21:20 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 14:21:21 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 14:21:21 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 14:21:21 INFO  time: indexed workspace in 4.84s
+2023.10.20 14:21:26 INFO  time: code lens generation in 3.13s
+2023.10.20 14:21:26 INFO  time: code lens generation in 3.13s
+2023.10.20 14:21:26 INFO  time: code lens generation in 3.13s
+2023.10.20 14:21:26 INFO  time: code lens generation in 2.71s
+2023.10.20 14:25:09 ERROR Failed to tokenize input for semantic tokens for C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\app\controllers\HomeController.scala
+scala.meta.tokenizers.TokenizeException: <input>:14: error: unclosed quoted identifier
+/`.
+ ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:489)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+Okt. 20, 2023 2:25:20 NACHM. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 67
+Okt. 20, 2023 2:25:21 NACHM. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 69
+Okt. 20, 2023 2:25:21 NACHM. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 71
+Okt. 20, 2023 2:25:21 NACHM. scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\.reports\metals-full\2023-10-20\r_compiler-error_(root)_14-25-21-340.md
+2023.10.20 14:25:21 WARN  Could not find semantic tokens for: file:///C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/app/controllers/HomeController.scala
+2023.10.20 14:26:23 INFO  compiling root (1 scala source)
+2023.10.20 14:26:23 INFO  time: compiled root in 0.12s
+2023.10.20 14:31:36 WARN  Using indexes to guess the definition of Controller
+2023.10.20 14:31:36 ERROR Can't run javac on C:\Users\ju200\AppData\Local\Temp\metals-javac-semanticdb3888836125257229068\source\Controller.java with options: [-cp
+C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\sourcegraph\semanticdb-javac\0.9.6\semanticdb-javac-0.9.6.jar;C:\Users\ju200\AppData\Local\bloop\cache\semanticdb\com.sourcegraph.semanticdb-javac.0.9.6\semanticdb-javac-0.9.6.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\twirl-api_2.13\1.6.1\twirl-api_2.13-1.6.1.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-server_2.13\2.9.0-RC3\play-server_2.13-2.9.0-RC3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-logback_2.13\2.9.0-RC3\play-logback_2.13-2.9.0-RC3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-akka-http-server_2.13\2.9.0-RC3\play-akka-http-server_2.13-2.9.0-RC3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-filters-helpers_2.13\2.9.0-RC3\play-filters-helpers_2.13-2.9.0-RC3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-guice_2.13\2.9.0-RC3\play-guice_2.13-2.9.0-RC3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\2.2.0\scala-xml_2.13-2.2.0.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play_2.13\2.9.0-RC3\play_2.13-2.9.0-RC3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-streams_2.13\2.9.0-RC3\play-streams_2.13-2.9.0-RC3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-http-core_2.13\10.2.10\akka-http-core_2.13-10.2.10.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\inject\guice\6.0.0\guice-6.0.0.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\inject\extensions\guice-assistedinject\6.0.0\guice-assistedinject-6.0.0.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-build-link\2.9.0-RC3\play-build-link-2.9.0-RC3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-configuration_2.13\2.9.0-RC3\play-configuration_2.13-2.9.0-RC3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\jul-to-slf4j\2.0.9\jul-to-slf4j-2.0.9.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\jcl-over-slf4j\2.0.9\jcl-over-slf4j-2.0.9.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor_2.13\2.6.21\akka-actor_2.13-2.6.21.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor-typed_2.13\2.6.21\akka-actor-typed_2.13-2.6.21.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-slf4j_2.13\2.6.21\akka-slf4j_2.13-2.6.21.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-serialization-jackson_2.13\2.6.21\akka-serialization-jackson_2.13-2.6.21.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.14.3\jackson-core-2.14.3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.14.3\jackson-annotations-2.14.3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.3\jackson-datatype-jdk8-2.14.3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.3\jackson-datatype-jsr310-2.14.3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.14.3\jackson-databind-2.14.3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.14.3\jackson-dataformat-cbor-2.14.3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\module\jackson-module-parameter-names\2.14.3\jackson-module-parameter-names-2.14.3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\module\jackson-module-scala_2.13\2.14.3\jackson-module-scala_2.13-2.14.3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-json_2.13\2.10.1\play-json_2.13-2.10.1.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\ssl-config-core_2.13\0.6.1\ssl-config-core_2.13-0.6.1.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.13\1.1.2\scala-parser-combinators_2.13-1.1.2.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-stream_2.13\2.6.21\akka-stream_2.13-2.6.21.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-parsing_2.13\10.2.10\akka-parsing_2.13-10.2.10.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-exceptions\2.9.0-RC3\play-exceptions-2.9.0-RC3.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_2.13\1.0.0\scala-java8-compat_2.13-1.0.0.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-functional_2.13\2.10.1\play-functional_2.13-2.10.1.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\ju200\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-protobuf-v3_2.13\2.6.21\akka-protobuf-v3_2.13-2.6.21.jar
+-d
+C:\Users\ju200\AppData\Local\Temp\metals-javac-semanticdb3888836125257229068\target
+-Xplugin:semanticdb -sourceroot:C:\Users\ju200\AppData\Local\Temp\metals-javac-semanticdb3888836125257229068\source -targetroot:C:\Users\ju200\AppData\Local\Temp\metals-javac-semanticdb3888836125257229068\target]
+java.lang.NullPointerException
+	at scala.meta.internal.pc.JavaMetalsGlobal$.makeFileObject(JavaMetalsGlobal.scala:47)
+	at scala.meta.internal.metals.JavaInteractiveSemanticdb.textDocument(JavaInteractiveSemanticdb.scala:73)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$compile$2(InteractiveSemanticdbs.scala:173)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.compile(InteractiveSemanticdbs.scala:173)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$4(InteractiveSemanticdbs.scala:98)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:98)
+	at java.util.HashMap.compute(null)
+	at java.util.Collections$SynchronizedMap.compute(null)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$didOpen$3(MetalsLspService.scala:1042)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+2023.10.20 14:31:36 WARN  Running javac-semanticdb failed for jar:file:///C:/Users/ju200/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.9.0-RC3/play_2.13-2.9.0-RC3-sources.jar!/play/mvc/Controller.java. Output:
+
+Exception in thread "pool-1-thread-78" java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.pc.JavaPresentationCompiler.<init>(JavaPresentationCompiler.scala:47)
+	at scala.meta.internal.metals.Compilers.loadJavaCompilerForTarget(Compilers.scala:953)
+	at scala.meta.internal.metals.Compilers.$anonfun$loadJavaCompiler$1(Compilers.scala:922)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.loadJavaCompiler(Compilers.scala:921)
+	at scala.meta.internal.metals.Compilers.fromBuildTarget$1(Compilers.scala:802)
+	at scala.meta.internal.metals.Compilers.loadCompiler(Compilers.scala:810)
+	at scala.meta.internal.metals.Compilers.semanticTokens(Compilers.scala:425)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$semanticTokensFull$2(MetalsLspService.scala:1556)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 13 more
+Exception in thread "pool-1-thread-98" java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:48)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:45)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$3(MetalsLspService.scala:1641)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 9 more
+Exception in thread "pool-1-thread-84" java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:48)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:45)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$3(MetalsLspService.scala:1641)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 9 more
+Exception in thread "pool-1-thread-99" java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:48)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:45)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$3(MetalsLspService.scala:1641)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 9 more
+Exception in thread "pool-1-thread-100" java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:48)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:45)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$3(MetalsLspService.scala:1641)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 9 more
+Okt. 20, 2023 2:31:49 NACHM. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNUNG: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Users/ju200/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.9.0-RC3/play_2.13-2.9.0-RC3-sources.jar%21/play/mvc/Controller.java"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NoClassDefFoundError: com/sun/source/tree/Tree
+	at scala.meta.internal.pc.JavaPresentationCompiler.<init>(JavaPresentationCompiler.scala:47)
+	at scala.meta.internal.metals.Compilers.loadJavaCompilerForTarget(Compilers.scala:953)
+	at scala.meta.internal.metals.Compilers.$anonfun$loadJavaCompiler$1(Compilers.scala:922)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.loadJavaCompiler(Compilers.scala:921)
+	at scala.meta.internal.metals.Compilers.fromBuildTarget$1(Compilers.scala:802)
+	at scala.meta.internal.metals.Compilers.loadCompiler(Compilers.scala:810)
+	at scala.meta.internal.metals.Compilers.didClose(Compilers.scala:216)
+	at scala.meta.internal.metals.MetalsLspService.didClose(MetalsLspService.scala:1163)
+	at scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:343)
+	at scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:53)
+	... 16 more
+Caused by: java.lang.ClassNotFoundException: com.sun.source.tree.Tree
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 27 more
+
+Okt. 20, 2023 2:35:24 NACHM. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 559
+2023.10.20 14:35:49 INFO  compiling root (1 scala source)
+2023.10.20 14:35:49 INFO  time: compiled root in 0.16s
+2023.10.20 14:44:27 INFO  compiling root (1 scala source)
+2023.10.20 14:44:27 INFO  time: compiled root in 0.12s
+2023.10.20 14:44:27 INFO  compiling root (2 scala sources)
+2023.10.20 14:44:27 INFO  time: compiled root in 0.11s
+2023.10.20 14:44:27 INFO  compiling root (2 scala sources)
+2023.10.20 14:44:27 INFO  time: compiled root in 0.14s
+2023.10.20 14:44:33 INFO  compiling root (2 scala sources)
+2023.10.20 14:44:33 INFO  time: compiled root in 0.11s
+2023.10.20 14:45:53 INFO  compiling root (2 scala sources)
+2023.10.20 14:45:53 INFO  time: compiled root in 0.16s
+2023.10.20 14:52:31 INFO  compiling root (2 scala sources)
+2023.10.20 14:52:31 INFO  time: compiled root in 0.17s
+2023.10.20 14:52:31 INFO  compiling root (8 scala sources and 1 java source)
+2023.10.20 14:52:31 INFO  time: compiled root in 0.38s
+2023.10.20 14:52:31 INFO  compiling root (8 scala sources and 1 java source)
+2023.10.20 14:52:33 INFO  time: compiled root in 0.56s
+2023.10.20 14:52:35 INFO  compiling root (8 scala sources and 1 java source)
+2023.10.20 14:52:35 INFO  time: compiled root in 0.42s
+2023.10.20 15:08:32 INFO  Shutting down server
+2023.10.20 15:08:32 INFO  shutting down Metals
+2023.10.20 15:08:32 INFO  Shut down connection with build server.
+2023.10.20 15:08:32 INFO  Shut down connection with build server.
+2023.10.20 15:08:32 INFO  Shut down connection with build server.
+2023.10.20 15:08:32 INFO  Exiting server
+2023.10.20 15:13:23 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.20 15:13:23 INFO  Attempting to connect to the build server...
+2023.10.20 15:13:23 INFO  skipping build import with status 'Installed'
+2023.10.20 15:13:23 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 15:13:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 15:13:23 INFO  Attempting to connect to the build server...
+2023.10.20 15:13:23 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 15:13:23 INFO  Attempting to connect to the build server...
+2023.10.20 15:13:23 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 15:13:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 15:13:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 15:13:24 INFO  time: Connected to build server in 1.19s
+2023.10.20 15:13:24 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.20 15:13:25 INFO  time: Imported build in 0.2s
+2023.10.20 15:13:28 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 15:13:30 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 15:13:30 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 15:13:30 INFO  time: indexed workspace in 4.93s
+2023.10.20 15:13:30 INFO  compiling root (8 scala sources and 1 java source)
+2023.10.20 15:13:31 INFO  time: compiled root in 1.04s
+2023.10.20 15:13:31 INFO  compiling root (8 scala sources and 1 java source)
+2023.10.20 15:13:31 INFO  time: compiled root in 0.21s
+2023.10.20 15:14:05 INFO  Shutting down server
+2023.10.20 15:14:05 INFO  shutting down Metals
+2023.10.20 15:14:05 INFO  Shut down connection with build server.
+2023.10.20 15:14:05 INFO  Shut down connection with build server.
+2023.10.20 15:14:05 INFO  Shut down connection with build server.
+2023.10.20 15:14:05 INFO  Exiting server
+2023.10.20 15:22:53 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.20 15:22:54 INFO  Attempting to connect to the build server...
+2023.10.20 15:22:54 INFO  skipping build import with status 'Installed'
+2023.10.20 15:22:54 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 15:22:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 15:22:54 INFO  Attempting to connect to the build server...
+2023.10.20 15:22:54 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 15:22:54 INFO  Attempting to connect to the build server...
+2023.10.20 15:22:54 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.20 15:22:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 15:22:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.20 15:22:55 INFO  time: Connected to build server in 0.66s
+2023.10.20 15:22:55 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.20 15:22:56 INFO  no build target found for C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.20 15:22:59 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 15:23:00 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 15:23:00 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.20 15:23:00 INFO  time: indexed workspace in 3.5s
+2023.10.20 15:23:00 INFO  compiling root (8 scala sources and 1 java source)
+2023.10.20 15:23:01 INFO  time: compiled root in 1.11s
+2023.10.20 15:31:05 INFO  compiling root (8 scala sources and 1 java source)
+2023.10.20 15:31:05 INFO  time: compiled root in 0.23s
+2023.10.20 15:31:25 INFO  compiling root (8 scala sources and 1 java source)
+2023.10.20 15:31:25 INFO  time: compiled root in 0.2s
+2023.10.20 15:44:13 INFO  compiling root (8 scala sources and 1 java source)
+2023.10.20 15:44:13 INFO  time: compiled root in 0.23s
+2023.10.20 16:04:25 INFO  compiling root (8 scala sources and 1 java source)
+2023.10.20 16:04:25 INFO  time: compiled root in 0.22s
+2023.10.20 17:32:50 INFO  compiling root (9 scala sources and 1 java source)
+2023.10.20 17:32:50 INFO  time: compiled root in 0.57s
+2023.10.20 19:33:11 INFO  compiling root (13 scala sources and 1 java source)
+2023.10.20 19:33:11 INFO  time: compiled root in 0.65s
+2023.10.20 19:45:16 INFO  Shutting down server
+2023.10.20 19:45:16 INFO  shutting down Metals
+2023.10.20 19:45:16 INFO  Shut down connection with build server.
+2023.10.20 19:45:16 INFO  Shut down connection with build server.
+2023.10.20 19:45:16 INFO  Shut down connection with build server.
+2023.10.20 19:45:16 INFO  Exiting server
+2023.10.23 10:12:58 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.23 10:12:59 INFO  Attempting to connect to the build server...
+2023.10.23 10:12:59 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.23 10:13:00 INFO  skipping build import with status 'Installed'
+2023.10.23 10:13:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.23 10:13:03 INFO  Attempting to connect to the build server...
+2023.10.23 10:13:03 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.23 10:13:03 INFO  Attempting to connect to the build server...
+2023.10.23 10:13:03 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.23 10:13:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.23 10:13:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.23 10:13:03 INFO  time: Connected to build server in 4.13s
+2023.10.23 10:13:03 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.23 10:13:04 INFO  time: Imported build in 0.45s
+2023.10.23 10:13:07 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.23 10:13:09 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.23 10:13:09 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.23 10:13:09 INFO  time: indexed workspace in 5.09s
