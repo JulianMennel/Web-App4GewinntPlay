@@ -5,13 +5,15 @@
 
 # An example controller showing a sample home page
  + NOCSRF
-GET     /                           controllers.HomeController.newField()
+GET     /                           controllers.HomeController.about()
 POST    /put                        controllers.HomeController.put()
 POST    /save                       controllers.HomeController.save()
 POST    /newGame                    controllers.HomeController.newField()
 GET     /load                       controllers.HomeController.load()
 GET     /redo                       controllers.HomeController.redo()
 GET     /undo                       controllers.HomeController.undo()
+GET     /about                      controllers.HomeController.about()
+GET     /newGame                    controllers.HomeController.newField()
 
 
 # Map static resources from the /public folder to the /assets URL path

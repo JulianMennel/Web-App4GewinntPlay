@@ -14,7 +14,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   val injector = Guice.createInjector(new MainModule)
   val gameController = Controller(injector.getInstance(classOf[FieldInterface]))
   gameController.newField
-  
 
   def newField() = Action {
     request =>
@@ -55,6 +54,10 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     request =>
       gameController.undo
       Ok(views.html.undo(gameController))
+  }
+
+  def about() = Action {
+    Ok(views.html.about())
   }
 
 

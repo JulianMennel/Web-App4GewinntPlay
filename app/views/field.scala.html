@@ -4,12 +4,17 @@
 table, th, td {
   border:1px solid black;
 }
+
+pre {
+  margin: 0;
+  font-size: 20px;
+}
 </style>
 <body>
 
 <h2>4-Gewinnt</h2>
 
-<table style="width:400px;height:300px;text-align:center;">
+<!--  <table style="width:400px;height:300px;text-align:center;">
     @for(index0 <- 0 until controller.field.size) {
     <tr style="height:47.33px;">
         @for(index1 <- 0 until controller.field.size2) {
@@ -17,7 +22,15 @@ table, th, td {
         }
     </tr>
     }
-</table>
+</table> -->
+<div style class="section">
+    @for(index0 <- 0 until controller.field.size) {
+    <pre>@{controller.field.barHTML(3, controller.field.size2)}</pre>
+    <pre>@{controller.field.cellsHTML(index0, 3)}</pre>
+    }
+    <pre>@{controller.field.barHTML(3, controller.field.size2)}</pre>
+</div>
+
 <br/>
 <br/>
 <form style="display:inline-block;" method="POST" action="/put">

@@ -4,21 +4,23 @@
 table, th, td {
   border:1px solid black;
 }
+pre {
+  margin: 0;
+  font-size: 20px;
+}
 </style>
 <body>
 <h1>Gespeichert</h1>
 <p>
     Das Spiel wurde Gespeichert!
 </p>
-<table style="width:400px;height:300px;text-align:center;">
+<div style class="section">
     @for(index0 <- 0 until controller.field.size) {
-    <tr style="height:47.33px;">
-        @for(index1 <- 0 until controller.field.size2) {
-        <td style="width:54.56px;">@{controller.field.stone(index0, index1).toString}</td>
-        }
-    </tr>
+    <pre>@{controller.field.barHTML(3, controller.field.size2)}</pre>
+    <pre>@{controller.field.cellsHTML(index0, 3)}</pre>
     }
-</table>
+    <pre>@{controller.field.barHTML(3, controller.field.size2)}</pre>
+</div>
 <br/>
 <br/>
 <form style="display:inline-block;" method="POST" action="/put">

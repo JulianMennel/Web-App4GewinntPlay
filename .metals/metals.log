@@ -488,3 +488,219 @@ WARNUNG: Unmatched cancel notification for request id 559
 2023.10.23 10:13:09 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
 2023.10.23 10:13:09 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
 2023.10.23 10:13:09 INFO  time: indexed workspace in 5.09s
+2023.10.23 10:28:43 INFO  Shutting down server
+2023.10.23 10:28:43 INFO  shutting down Metals
+2023.10.23 10:28:43 INFO  Shut down connection with build server.
+2023.10.23 10:28:43 INFO  Shut down connection with build server.
+2023.10.23 10:28:43 INFO  Shut down connection with build server.
+2023.10.23 10:28:43 INFO  Exiting server
+2023.10.23 10:30:19 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.23 10:30:20 INFO  Attempting to connect to the build server...
+2023.10.23 10:30:20 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.23 10:30:21 INFO  skipping build import with status 'Installed'
+2023.10.23 10:30:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.23 10:30:20 INFO  Attempting to connect to the build server...
+2023.10.23 10:30:20 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.23 10:30:20 INFO  Attempting to connect to the build server...
+2023.10.23 10:30:20 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.23 10:30:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.23 10:30:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.23 10:30:21 INFO  time: Connected to build server in 0.43s
+2023.10.23 10:30:21 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.23 10:30:24 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.23 10:30:26 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.23 10:30:26 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.23 10:30:26 INFO  time: indexed workspace in 4.69s
+2023.10.23 10:30:30 INFO  compiling root (13 scala sources and 1 java source)
+2023.10.23 10:30:33 INFO  time: compiled root in 2.43s
+2023.10.23 10:30:34 INFO  Shutting down server
+2023.10.23 10:30:34 INFO  shutting down Metals
+2023.10.23 10:30:34 INFO  Shut down connection with build server.
+2023.10.23 10:30:34 INFO  Shut down connection with build server.
+2023.10.23 10:30:34 INFO  Shut down connection with build server.
+2023.10.23 10:30:34 INFO  Exiting server
+2023.10.24 14:20:23 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.24 14:20:24 INFO  Attempting to connect to the build server...
+2023.10.24 14:20:24 INFO  skipping build import with status 'Installed'
+2023.10.24 14:20:24 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.24 14:20:28 INFO  no build target found for C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.24 14:20:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.24 14:20:28 INFO  Attempting to connect to the build server...
+2023.10.24 14:20:28 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.24 14:20:28 INFO  Attempting to connect to the build server...
+2023.10.24 14:20:28 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.24 14:20:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.24 14:20:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.24 14:20:29 INFO  time: Connected to build server in 4.49s
+2023.10.24 14:20:29 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.24 14:20:29 INFO  time: Imported build in 0.28s
+2023.10.24 14:20:29 INFO  Shutting down server
+2023.10.24 14:20:29 INFO  shutting down Metals
+2023.10.24 14:20:29 INFO  Shut down connection with build server.
+2023.10.24 14:20:29 INFO  Shut down connection with build server.
+2023.10.24 14:20:29 INFO  Shut down connection with build server.
+2023.10.24 14:20:29 INFO  Exiting server
+2023.10.24 16:10:24 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.24 16:10:27 INFO  Attempting to connect to the build server...
+2023.10.24 16:10:27 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.24 16:10:27 INFO  skipping build import with status 'Installed'
+2023.10.24 16:10:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.24 16:10:27 INFO  Attempting to connect to the build server...
+2023.10.24 16:10:27 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.24 16:10:27 INFO  Attempting to connect to the build server...
+2023.10.24 16:10:27 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.24 16:10:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.24 16:10:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.24 16:10:27 INFO  time: Connected to build server in 0.48s
+2023.10.24 16:10:27 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.24 16:10:30 INFO  no build target found for C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.24 16:10:30 INFO  time: Imported build in 0.28s
+2023.10.24 16:10:33 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.24 16:10:35 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.24 16:10:35 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.24 16:10:35 INFO  time: indexed workspace in 4.88s
+2023.10.24 16:10:36 INFO  compiling root (13 scala sources and 1 java source)
+2023.10.24 16:10:39 INFO  time: compiled root in 3.05s
+2023.10.24 16:10:39 INFO  compiling root (13 scala sources and 1 java source)
+2023.10.24 16:10:40 INFO  time: compiled root in 1.14s
+Okt. 24, 2023 4:28:24 NACHM. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMATION: Unsupported notification method: $/setTrace
+2023.10.24 16:38:40 INFO  Shutting down server
+2023.10.24 16:38:40 INFO  shutting down Metals
+2023.10.24 16:38:40 INFO  Shut down connection with build server.
+2023.10.24 16:38:40 INFO  Shut down connection with build server.
+2023.10.24 16:38:40 INFO  Shut down connection with build server.
+2023.10.24 16:38:40 INFO  Exiting server
+2023.10.25 13:04:27 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.25 13:04:28 INFO  Attempting to connect to the build server...
+2023.10.25 13:04:28 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.25 13:04:28 INFO  skipping build import with status 'Installed'
+2023.10.25 13:04:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.25 13:04:31 INFO  Attempting to connect to the build server...
+2023.10.25 13:04:31 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.25 13:04:31 INFO  Attempting to connect to the build server...
+2023.10.25 13:04:31 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.25 13:04:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.25 13:04:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.25 13:04:31 INFO  time: Connected to build server in 3.78s
+2023.10.25 13:04:31 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.25 13:04:31 INFO  time: Imported build in 0.26s
+2023.10.25 13:04:35 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.25 13:04:35 INFO  Shutting down server
+2023.10.25 13:04:35 INFO  shutting down Metals
+2023.10.25 13:04:35 INFO  Shut down connection with build server.
+2023.10.25 13:04:35 INFO  Shut down connection with build server.
+2023.10.25 13:04:35 INFO  Shut down connection with build server.
+2023.10.25 13:04:35 INFO  Exiting server
+2023.10.29 22:32:09 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.29 22:32:12 INFO  Attempting to connect to the build server...
+2023.10.29 22:32:12 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 22:32:12 INFO  skipping build import with status 'Installed'
+2023.10.29 22:32:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 22:32:16 INFO  Attempting to connect to the build server...
+2023.10.29 22:32:16 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 22:32:16 INFO  Attempting to connect to the build server...
+2023.10.29 22:32:16 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 22:32:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 22:32:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 22:32:16 INFO  time: Connected to build server in 3.99s
+2023.10.29 22:32:16 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.29 22:32:16 INFO  time: Imported build in 0.26s
+2023.10.29 22:32:20 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.29 22:32:22 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.29 22:32:22 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.29 22:32:22 INFO  time: indexed workspace in 5.72s
+2023.10.29 22:33:52 INFO  compiling root (13 scala sources and 1 java source)
+2023.10.29 22:33:55 INFO  time: compiled root in 2.81s
+2023.10.29 22:42:50 INFO  compiling root (14 scala sources and 1 java source)
+2023.10.29 22:42:51 INFO  time: compiled root in 1.76s
+2023.10.29 22:43:02 INFO  Shutting down server
+2023.10.29 22:43:02 INFO  shutting down Metals
+2023.10.29 22:43:02 INFO  Shut down connection with build server.
+2023.10.29 22:43:02 INFO  Shut down connection with build server.
+2023.10.29 22:43:02 INFO  Shut down connection with build server.
+2023.10.29 22:43:02 INFO  Exiting server
+2023.10.29 22:43:22 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.29 22:43:24 INFO  Attempting to connect to the build server...
+2023.10.29 22:43:24 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 22:43:24 INFO  skipping build import with status 'Installed'
+2023.10.29 22:43:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 22:43:24 INFO  Attempting to connect to the build server...
+2023.10.29 22:43:24 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 22:43:24 INFO  Attempting to connect to the build server...
+2023.10.29 22:43:24 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 22:43:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 22:43:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 22:43:24 INFO  time: Connected to build server in 0.94s
+2023.10.29 22:43:24 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.29 22:43:25 INFO  time: Imported build in 0.47s
+2023.10.29 22:43:30 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.29 22:43:30 INFO  Shutting down server
+2023.10.29 22:43:30 INFO  shutting down Metals
+2023.10.29 22:43:30 INFO  Shut down connection with build server.
+2023.10.29 22:43:30 INFO  Shut down connection with build server.
+2023.10.29 22:43:30 INFO  Shut down connection with build server.
+2023.10.29 22:43:30 INFO  Exiting server
+2023.10.29 23:21:09 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.29 23:21:10 INFO  Attempting to connect to the build server...
+2023.10.29 23:21:10 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 23:21:10 INFO  skipping build import with status 'Installed'
+2023.10.29 23:21:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 23:21:10 INFO  Attempting to connect to the build server...
+2023.10.29 23:21:10 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 23:21:10 INFO  Attempting to connect to the build server...
+2023.10.29 23:21:10 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 23:21:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 23:21:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 23:21:11 INFO  time: Connected to build server in 0.92s
+2023.10.29 23:21:11 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.29 23:21:11 INFO  time: Imported build in 0.12s
+2023.10.29 23:21:14 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.29 23:21:16 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.29 23:21:16 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.29 23:21:16 INFO  time: indexed workspace in 4.91s
+2023.10.29 23:21:16 INFO  Shutting down server
+2023.10.29 23:21:16 INFO  shutting down Metals
+2023.10.29 23:21:16 INFO  Shut down connection with build server.
+2023.10.29 23:21:16 INFO  Shut down connection with build server.
+2023.10.29 23:21:16 INFO  Shut down connection with build server.
+Okt. 29, 2023 11:21:16 NACHM. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFORMATION: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(Unknown Source)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Unknown Source)
+	at java.base/java.nio.channels.Channels.writeFully(Unknown Source)
+	at java.base/java.nio.channels.Channels$1.write(Unknown Source)
+	at java.base/java.io.OutputStream.write(Unknown Source)
+	at java.base/java.nio.channels.Channels$1.write(Unknown Source)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(Unknown Source)
+	at java.base/java.io.FilterOutputStream.write(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.10.29 23:21:16 INFO  Failed to run request with params ScalaTestClassesResult
