@@ -1,52 +1,57 @@
 @(controller: de.htwg.se.controller.controllerComponent.ControllerInterface, feld: String, player: String)
 <html>
-<style>
-table, th, td {
-  border:1px solid black;
-}
-pre {
-  margin: 0;
-  font-size: 20px;
-}
-</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-Gewinnt</title>
+    <link rel="stylesheet" href='@routes.Assets.versioned("stylesheets/field.css")' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav">
+    <a class="active" href="http://localhost:9000">About</a>
+    <a href="http://localhost:9000/save">Save</a>
+    <a href="http://localhost:9000/load">Load</a>
+    <a href="http://localhost:9000/newGame">New Game</a>
+    <div class="dropdown">
+        <button class="dropbtn">Options
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="http://localhost:9000/undo">Undo</a>
+            <a href="http://localhost:9000/redo">Redo</a>
+        </div>
+    </div>
+</div>
 <h1>Erfolgreich</h1>
 <p>
     <b>@player</b> hat einen Stein auf <b>@feld</b> gesetzt
 </p>
-<div style class="section">
+<div class="grid">
     @for(index0 <- 0 until controller.field.size) {
-    <pre>@{controller.field.barHTML(3, controller.field.size2)}</pre>
-    <pre>@{controller.field.cellsHTML(index0, 3)}</pre>
+    @for(index1 <- 0 until controller.field.size2) {
+    @{if (controller.field.stone(index0,index1).toString() == "X") {<div class="yellow"></div>}}
+    @{if (controller.field.stone(index0,index1).toString() == "O") {<div class="red"></div>}}
+    @{if (controller.field.stone(index0,index1).toString() == " ") {<div class="empty"></div>}}
     }
-    <pre>@{controller.field.barHTML(3, controller.field.size2)}</pre>
+    }
 </div>
 <br/>
 <br/>
-<form style="display:inline-block;" method="POST" action="/put">
-    <label style="width:45px;">Reihe:  </label>
-    <input id="row" name="row" required><br />
-    <label style="width:45px;">Spalte:</label>
-    <input id="column" name="column" required><br />
-    <input type="submit" value="Platzieren">
-</form>
-<br/>
-<form style="display:inline-block;" method="POST" action="/save">
-    <input type="submit" value="Speichern">
-</form>
-<form style="display:inline-block;" method="GET" action="/load">
-    <input type="submit" value="Laden">
-</form>
-<br/>
-<form style="display:inline-block;" method="GET" action="/redo">
-    <input type="submit" value="Redo">
-</form>
-<form style="display:inline-block;" method="GET" action="/undo">
-    <input type="submit" value="Undo">
-</form>
-<br/>
-<form style="display:inline-block;" method="POST" action="/newGame">
-    <input type="submit" value="New Game">
+<form method="POST" action="/put">
+    <div class="form-row">
+        <label for="row">Reihe:</label>
+        <input type="text" id="row" name="row" required>
+    </div>
+    <div class="form-row">
+        <label for="column">Spalte:</label>
+        <input type="text" id="column" name="column" required>
+    </div>
+    <div class="form-row">
+        <input class="place" type="submit" value="Platzieren">
+    </div>
 </form>
 </body>
 </html>
