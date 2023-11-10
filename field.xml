@@ -25,19 +25,19 @@
     </cell><cell row="3" col="2" value=" ">
     </cell><cell row="3" col="3" value=" ">
     </cell><cell row="3" col="4" value=" ">
-    </cell><cell row="3" col="5" value="X">
-    </cell><cell row="3" col="6" value=" ">
+    </cell><cell row="3" col="5" value=" ">
+    </cell><cell row="3" col="6" value="O">
     </cell><cell row="4" col="0" value=" ">
     </cell><cell row="4" col="1" value=" ">
     </cell><cell row="4" col="2" value=" ">
     </cell><cell row="4" col="3" value=" ">
     </cell><cell row="4" col="4" value="O">
-    </cell><cell row="4" col="5" value="O">
-    </cell><cell row="4" col="6" value=" ">
+    </cell><cell row="4" col="5" value="X">
+    </cell><cell row="4" col="6" value="X">
     </cell><cell row="5" col="0" value=" ">
     </cell><cell row="5" col="1" value=" ">
     </cell><cell row="5" col="2" value=" ">
-    </cell><cell row="5" col="3" value=" ">
+    </cell><cell row="5" col="3" value="O">
     </cell><cell row="5" col="4" value="X">
     </cell><cell row="5" col="5" value="O">
     </cell><cell row="5" col="6" value="X">

@@ -1147,3 +1147,85 @@ Caused by: java.nio.channels.ClosedChannelException
 2023.11.03 15:33:36 INFO  Shut down connection with build server.
 2023.11.03 15:33:36 INFO  Shut down connection with build server.
 2023.11.03 15:33:36 INFO  Exiting server
+2023.11.10 11:19:33 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.84.1.
+2023.11.10 11:19:34 INFO  Attempting to connect to the build server...
+2023.11.10 11:19:34 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.10 11:19:36 INFO  no build target found for C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\build.sbt. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.10 11:19:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 11:19:37 INFO  Attempting to connect to the build server...
+2023.11.10 11:19:37 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.10 11:19:37 INFO  Attempting to connect to the build server...
+2023.11.10 11:19:37 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.10 11:19:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 11:19:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 11:19:37 INFO  time: Connected to build server in 3.06s
+2023.11.10 11:19:37 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.10 11:19:37 ERROR Build server error: Empty build targets. Expected at least one build target identifier.
+2023.11.10 11:19:37 INFO  time: Imported build in 0.13s
+2023.11.10 11:19:37 INFO  running 'C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ju200\AppData\Local\Temp\metals9809786177946143220\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.10 11:19:39 INFO  sbt thinks that server is already booting because of this exception:
+2023.11.10 11:19:39 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8289393873222426757_lock, error 5
+2023.11.10 11:19:39 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2023.11.10 11:19:39 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2023.11.10 11:19:39 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:152)
+2023.11.10 11:19:39 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:78)
+2023.11.10 11:19:39 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:78)
+2023.11.10 11:19:39 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:86)
+2023.11.10 11:19:39 ERROR 	at sbt.xMain$.run(Main.scala:123)
+2023.11.10 11:19:39 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023.11.10 11:19:39 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2023.11.10 11:19:39 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2023.11.10 11:19:39 ERROR 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+2023.11.10 11:19:39 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2023.11.10 11:19:39 ERROR 	at sbt.xMain.run(Main.scala:47)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2023.11.10 11:19:39 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8289393873222426757_lock, error 5
+2023.11.10 11:19:39 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2023.11.10 11:19:39 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2023.11.10 11:19:39 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2023.11.10 11:19:39 ERROR 	... 23 more
+2023.11.10 11:19:39 INFO  time: ran 'sbt bloopInstall' in 1.17s
+2023.11.10 11:19:39 ERROR sbt command failed: C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ju200\AppData\Local\Temp\metals9809786177946143220\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.11.10 11:19:39 INFO  Disconnecting from Bloop session...
+2023.11.10 11:19:39 INFO  Shut down connection with build server.
+2023.11.10 11:19:39 INFO  Shut down connection with build server.
+2023.11.10 11:19:39 INFO  Shut down connection with build server.
+2023.11.10 11:19:39 INFO  Attempting to connect to the build server...
+2023.11.10 11:19:39 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.10 11:19:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 11:19:39 INFO  Attempting to connect to the build server...
+2023.11.10 11:19:39 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.10 11:19:39 INFO  Attempting to connect to the build server...
+2023.11.10 11:19:39 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.10 11:19:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 11:19:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 11:19:39 INFO  time: Connected to build server in 86ms
+2023.11.10 11:19:39 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.10 11:19:39 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.10 11:19:40 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.10 11:19:39 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.10 11:19:39 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.10 11:19:39 INFO  time: indexed workspace in 3.02s
+2023.11.10 11:19:40 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.10 11:19:40 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.10 11:19:40 INFO  time: indexed workspace in 1.83s
+2023.11.10 11:19:44 INFO  time: code lens generation in 2.82s
+2023.11.10 11:19:44 INFO  time: code lens generation in 2.4s
+2023.11.10 11:19:44 INFO  time: code lens generation in 2.82s
+2023.11.10 11:19:44 INFO  time: code lens generation in 2.82s
+2023.11.10 11:20:47 INFO  Shutting down server
+2023.11.10 11:20:47 INFO  shutting down Metals
+2023.11.10 11:20:47 INFO  Shut down connection with build server.
+2023.11.10 11:20:47 INFO  Shut down connection with build server.
+2023.11.10 11:20:47 INFO  Shut down connection with build server.
+2023.11.10 11:20:47 INFO  Exiting server

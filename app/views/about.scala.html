@@ -4,33 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vier gewinnt</title>
-    <link rel="stylesheet" media="screen" >
+    <link rel="stylesheet" href='@routes.Assets.versioned("stylesheets/field.css")' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
+<div class="topnav">
+    <a class="active" href="http://localhost:9000">About</a>
+    <a href="http://localhost:9000/newGame">New Game</a>
+</div>
 <div class="container">
-    <h1>Vier Gewinnt!</h1>
-
-    <a href="/newGame">Starte ein Spiel</a>
-
-    <div class="section">
-        <h2>Spielablauf</h2>
-        <ul>
-            <li>Für 2 Spieler</li>
-            <li>Jeder Spieler setzt abwechselnd einen Stein</li>
-            <li>Ziel ist es, 4 Steine eines Spielers in eine Linie zu bringen, dabei ist es egal, ob diese vertikal, horizontal oder diagonal sind</li>
-            <li>Ist ein Spieler an der Reihe, darf er mit den Eingabefeldern unten einen Stein setzen</li>
-            <li>Gewonnen hat der Spieler, der als erstes alles 4 seiner Steine in einer Reihe hat</li>
-        </ul>
+    <h1 class="header-common">4-Gewinnt</h1>
+    <br/>
+    <h3 class="header-common">Infos</h3>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapseOne">
+                    Felder
+                </button>
+            </h2>
+            <div id="collapse-1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <li><b>Weiß</b>: Feld wurde noch nicht gesetzt</li>
+                    <li><b>Gelb</b>: Spieler 1 hat einen Stein gesetzt</li>
+                    <li><b>Rot</b>: Spieler 1 hat einen Stein gesetzt</li>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapseTwo">
+                    Spielablauf
+                </button>
+            </h2>
+            <div id="collapse-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>Für 2 Spieler</li>
+                        <li>Jeder Spieler setzt abwechselnd einen Stein</li>
+                        <li>Ziel ist es, 4 Steine eines Spielers in eine Linie zu bringen, dabei ist es egal, ob diese vertikal, horizontal oder diagonal sind</li>
+                        <li>Ist ein Spieler an der Reihe, darf er mit den Eingabefeldern unten einen Stein setzen</li>
+                        <li>Gewonnen hat der Spieler, der als erstes alles 4 seiner Steine in einer Reihe hat</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapseThree">
+                    Geschichte des Spiels
+                </button>
+            </h2>
+            <div id="collapse-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>Das Spiel wurde 1974 von den Entwicklern Howard Wexler und Ned Strongin erfunden und 1974 von der Strongin & Wexler Corp. lizenziert und 1974 veröffentlicht.</li>
+                        <li>Die Entstehung des Spiels fällt in eine Zeit, als Gesellschaftsspiele populär wurden. Die Menschen suchten nach unterhaltsamen Aktivitäten, um sich in der Freizeit zu beschäftigen</li>
+                        <li>Das Spiel hat sich zu einem wichtigen kulturellen Erbe entwickelt und ist ein Teil der deutschen Spieltradition</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="section">
-        <h2>Geschichte des Spiels</h2>
-        <ul>
-            <li>Das Spiel wurde 1974 von den Entwicklern Howard Wexler und Ned Strongin erfunden und 1974 von der Strongin & Wexler Corp. lizenziert und 1974 veröffentlicht.</li>
-            <li>Die Entstehung des Spiels fällt in eine Zeit, als Gesellschaftsspiele populär wurden. Die Menschen suchten nach unterhaltsamen Aktivitäten, um sich in der Freizeit zu beschäftigen</li>
-            <li>Das Spiel hat sich zu einem wichtigen kulturellen Erbe entwickelt und ist ein Teil der deutschen Spieltradition</li>
-        </ul>
-    </div>
+
 </div>
 </body>
 </html>
