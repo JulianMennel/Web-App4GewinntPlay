@@ -31,30 +31,38 @@
 <p>
     Die letzte Löschung wurde zurückgesetzt!
 </p>
-<div class="grid">
-    @for(index0 <- 0 until controller.field.size) {
-    @for(index1 <- 0 until controller.field.size2) {
-    @{if (controller.field.stone(index0,index1).toString() == "X") {<div class="coin"></div>}}
-    @{if (controller.field.stone(index0,index1).toString() == "O") {<div class="coin copper"></div>}}
-    @{if (controller.field.stone(index0,index1).toString() == " ") {<div class="coin flip silver"></div>}}
-    }
-    }
-</div>
-<br/>
-<br/>
-<form method="POST" action="/put">
-    <div class="form-row">
-        <label for="row">Reihe:</label>
-        <input type="text" id="row" name="row" required>
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-4" style="padding-left: 0; width: 350px;">
+                <div class="grid">
+                    @for(index0 <- 0 until controller.field.size) {
+                    @for(index1 <- 0 until controller.field.size2) {
+                    @{if (controller.field.stone(index0,index1).toString() == "X") {<div class="coin"></div>}}
+                    @{if (controller.field.stone(index0,index1).toString() == "O") {<div class="coin copper"></div>}}
+                    @{if (controller.field.stone(index0,index1).toString() == " ") {<div class="coin flip silver"></div>}}
+                    }
+                    }
+                </div>
+                <br/>
+                <br/>
+            </div>
+            <div class="col-md-2">
+                <form method="POST" action="/put">
+                    <div class="form-row">
+                        <label for="row">Reihe:</label>
+                        <input type="text" id="row" name="row" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="column">Spalte:</label>
+                        <input type="text" id="column" name="column" required>
+                    </div>
+                    <div class="form-row">
+                        <input class="place" type="submit" value="Platzieren">
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-    <div class="form-row">
-        <label for="column">Spalte:</label>
-        <input type="text" id="column" name="column" required>
-    </div>
-    <div class="form-row">
-        <input class="place" type="submit" value="Platzieren">
-    </div>
-</form>
 </div>
 </body>
 </html>
