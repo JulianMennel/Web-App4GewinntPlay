@@ -162,6 +162,56 @@
     justify-content: flex-end;
 }
 
+.golden {
+    height: var(--coin-size);
+    width: var(--coin-size);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--face);
+    background-image: var(--coin-face);
+    background-size: 100% 100%;
+    background-position: center;
+    background-blend-mode: overlay;
+    border-radius: 50%;
+}
+
+.kupfer {
+    height: var(--coin-size);
+    width: var(--coin-size);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--face);
+    background-image: var(--coin-face);
+    background-size: 100% 100%;
+    background-position: center;
+    background-blend-mode: overlay;
+    border-radius: 50%;
+    filter:
+        hue-rotate(-40deg)
+        brightness(0.75)
+        contrast(115%);
+}
+
+.silber {
+    height: var(--coin-size);
+    width: var(--coin-size);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--face);
+    background-image: var(--coin-face);
+    background-size: 100% 100%;
+    background-position: center;
+    background-blend-mode: overlay;
+    border-radius: 50%;
+    filter: saturate(0);
+}
+
 :root {
   --face: #be9d66;
   --lowlight: #111;
@@ -170,11 +220,6 @@
   --coin-size: 37px;
   --coin-face: url('https://sdbullion.com/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/2/0/2019-roaring-lion-silver-coin-obverse-sd-bullion.jpg');
 }
-
-/*
-  everything above is positioning and variables.
-  this is where the real fun begins...
-*/
 
 .coin {
   height: var(--coin-size);
