@@ -8,6 +8,7 @@ import com.google.inject.Guice
 import de.htwg.se.MainModule
 import de.htwg.se.model.fieldComponent.FieldInterface
 import de.htwg.se.model.moveComponent.Move
+import play.api.libs.json._
 
 @Singleton
 class HomeController @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
@@ -25,11 +26,28 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     request =>
       var row = request.body.asFormUrlEncoded.get("row").mkString.toInt
       var col = request.body.asFormUrlEncoded.get("column").mkString.toInt
-      var player = if (gameController.field.player.toString == "true") "X" else "O"
-      var feldStr = row+","+col
       gameController.put(Some(Move('i',row,col)))
       //Ok(views.html.field(gameController))
-      Ok(views.html.put(gameController, feldStr, player))
+      Ok(views.html.put(gameController))
+  }
+
+  def putJson() = Action(parse.json) {
+    request =>
+      request.body.validate[Map[String, String]].map {
+        case dataMap =>
+          val row = dataMap.getOrElse("row", "")
+          val col = dataMap.getOrElse("column", "")
+          gameController.put(Some(Move('i', row.toInt, col.toInt)))
+          //println(gameController.toString)
+          Ok(views.html.put(gameController))
+      }.recoverTotal {
+          e => BadRequest(Json.obj("status" -> "error", "message" -> JsError.toJson(e)))
+      }
+  }
+
+  def putGet() = Action {
+    request =>
+      Ok(views.html.put(gameController))
   }
 
   def save() = Action {

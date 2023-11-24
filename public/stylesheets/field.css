@@ -175,6 +175,7 @@
     background-position: center;
     background-blend-mode: overlay;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .kupfer {
@@ -194,6 +195,7 @@
         hue-rotate(-40deg)
         brightness(0.75)
         contrast(115%);
+    cursor: pointer;
 }
 
 .silber {
@@ -210,6 +212,7 @@
     background-blend-mode: overlay;
     border-radius: 50%;
     filter: saturate(0);
+    cursor: pointer;
 }
 
 :root {
@@ -229,6 +232,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .coin::before {
