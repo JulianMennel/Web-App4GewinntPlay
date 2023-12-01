@@ -29,12 +29,51 @@ function staticCoin(coin) {
     }
 }
 
+function loadFieldFromJson(fieldJson) {
+    const obj = JSON.parse(fieldJson);
+    for (var i=0; i<obj.field.cells.length; i++) {
+        switch (obj.field.cells[i].value) {
+            case 'X':
+                document.getElementById(parseInt(obj.field.cells[i].row)+""+parseInt(obj.field.cells[i].col)).className = "golden";
+                console.log("gold");
+                break;
+            case 'O':
+                document.getElementById(parseInt(obj.field.cells[i].row)+""+parseInt(obj.field.cells[i].col)).className = "kupfer";
+                console.log("kupfer");
+                break;
+            case ' ':
+                document.getElementById(parseInt(obj.field.cells[i].row)+""+parseInt(obj.field.cells[i].col)).className = "silber";
+                console.log("silber");
+                break;
+        }
+    }
+}
+
+const connectWebsocket = () => {
+    const socket = new WebSocket("ws://localhost:9000/websocket");
+    socket.onopen = function (event) {
+        console.log("Socket is now open", event);
+    }
+    socket.onmessage = function (message) {
+        console.log("message=",message.data)
+        loadFieldFromJson(message.data)
+    }
+    socket.onerror = function (error) {
+        console.log("error=",error)
+    }
+    socket.onclose = function () {
+        console.log("socket close")
+    }
+}
+
 $(document).ready(function () {
     const spielfeld = $('#grid');
     const form = $('#set-stone');
     const formRow = $('#row');
     const formCol = $('#column');
     const API_BASE_URL = "http://localhost:9000";
+
+    connectWebsocket();
 
     spielfeld.click(function (event) {
         const row2 = event.target.id[0];
@@ -52,7 +91,8 @@ $(document).ready(function () {
                     contentType: "application/json",
                     data: JSON.stringify({row: row2, column: col}),
                     success: function (data, textStatus, jqXHR) {
-                        location.replace("/put");
+                        //location.replace("/put");
+                        spielfeld.html(data);
                     }
                 })
             }

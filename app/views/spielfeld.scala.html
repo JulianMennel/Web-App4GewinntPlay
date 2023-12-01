@@ -1,0 +1,9 @@
+@(controller: de.htwg.se.controller.controllerComponent.ControllerInterface)
+
+    @for(index0 <- 0 until controller.field.size) {
+    @for(index1 <- 0 until controller.field.size2) {
+    @{if (controller.field.stone(index0,index1).toString() == "X") {<div id={index0.toString()+ "" + index1.toString()} class="golden" onmouseover="rotateCoin(this)" onmouseout="staticCoin(this)"></div>}}
+@{if (controller.field.stone(index0,index1).toString() == "O") {<div id={index0.toString()+ "" + index1.toString()} class="kupfer" onmouseover="rotateCoin(this)" onmouseout="staticCoin(this)"></div>}}
+@{if (controller.field.stone(index0,index1).toString() == " ") {<div id={index0.toString()+ "" + index1.toString()} class="silber" onmouseover="rotateCoin(this)" onmouseout="staticCoin(this)"></div>}}
+}
+}
