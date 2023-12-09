@@ -37,7 +37,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents, i
 
     def sendJsonToClient = {
       out ! (gameController.toJson.toString)
-      println("hallo")
     }
   }
 
@@ -79,6 +78,11 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents, i
       }.recoverTotal {
           e => BadRequest(Json.obj("status" -> "error", "message" -> JsError.toJson(e)))
       }
+  }
+
+  def fieldJson() = Action {
+    request =>
+      Ok(gameController.toJson)
   }
 
   def putGet() = Action {

@@ -18,6 +18,7 @@ GET     /about                      controllers.HomeController.about()
 GET     /newGame                    controllers.HomeController.newField()
 GET     /save                       controllers.HomeController.save()
 GET     /websocket                  controllers.HomeController.socket()
+GET     /fieldJson                  controllers.HomeController.fieldJson()
 
 
 
