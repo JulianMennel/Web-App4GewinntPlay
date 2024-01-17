@@ -488,3 +488,938 @@ WARNUNG: Unmatched cancel notification for request id 559
 2023.10.23 10:13:09 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
 2023.10.23 10:13:09 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
 2023.10.23 10:13:09 INFO  time: indexed workspace in 5.09s
+2023.10.23 10:28:43 INFO  Shutting down server
+2023.10.23 10:28:43 INFO  shutting down Metals
+2023.10.23 10:28:43 INFO  Shut down connection with build server.
+2023.10.23 10:28:43 INFO  Shut down connection with build server.
+2023.10.23 10:28:43 INFO  Shut down connection with build server.
+2023.10.23 10:28:43 INFO  Exiting server
+2023.10.23 10:30:19 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.23 10:30:20 INFO  Attempting to connect to the build server...
+2023.10.23 10:30:20 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.23 10:30:21 INFO  skipping build import with status 'Installed'
+2023.10.23 10:30:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.23 10:30:20 INFO  Attempting to connect to the build server...
+2023.10.23 10:30:20 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.23 10:30:20 INFO  Attempting to connect to the build server...
+2023.10.23 10:30:20 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.23 10:30:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.23 10:30:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.23 10:30:21 INFO  time: Connected to build server in 0.43s
+2023.10.23 10:30:21 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.23 10:30:24 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.23 10:30:26 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.23 10:30:26 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.23 10:30:26 INFO  time: indexed workspace in 4.69s
+2023.10.23 10:30:30 INFO  compiling root (13 scala sources and 1 java source)
+2023.10.23 10:30:33 INFO  time: compiled root in 2.43s
+2023.10.23 10:30:34 INFO  Shutting down server
+2023.10.23 10:30:34 INFO  shutting down Metals
+2023.10.23 10:30:34 INFO  Shut down connection with build server.
+2023.10.23 10:30:34 INFO  Shut down connection with build server.
+2023.10.23 10:30:34 INFO  Shut down connection with build server.
+2023.10.23 10:30:34 INFO  Exiting server
+2023.10.24 14:20:23 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.24 14:20:24 INFO  Attempting to connect to the build server...
+2023.10.24 14:20:24 INFO  skipping build import with status 'Installed'
+2023.10.24 14:20:24 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.24 14:20:28 INFO  no build target found for C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.24 14:20:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.24 14:20:28 INFO  Attempting to connect to the build server...
+2023.10.24 14:20:28 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.24 14:20:28 INFO  Attempting to connect to the build server...
+2023.10.24 14:20:28 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.24 14:20:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.24 14:20:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.24 14:20:29 INFO  time: Connected to build server in 4.49s
+2023.10.24 14:20:29 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.24 14:20:29 INFO  time: Imported build in 0.28s
+2023.10.24 14:20:29 INFO  Shutting down server
+2023.10.24 14:20:29 INFO  shutting down Metals
+2023.10.24 14:20:29 INFO  Shut down connection with build server.
+2023.10.24 14:20:29 INFO  Shut down connection with build server.
+2023.10.24 14:20:29 INFO  Shut down connection with build server.
+2023.10.24 14:20:29 INFO  Exiting server
+2023.10.24 16:10:24 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.24 16:10:27 INFO  Attempting to connect to the build server...
+2023.10.24 16:10:27 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.24 16:10:27 INFO  skipping build import with status 'Installed'
+2023.10.24 16:10:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.24 16:10:27 INFO  Attempting to connect to the build server...
+2023.10.24 16:10:27 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.24 16:10:27 INFO  Attempting to connect to the build server...
+2023.10.24 16:10:27 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.24 16:10:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.24 16:10:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.24 16:10:27 INFO  time: Connected to build server in 0.48s
+2023.10.24 16:10:27 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.24 16:10:30 INFO  no build target found for C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.24 16:10:30 INFO  time: Imported build in 0.28s
+2023.10.24 16:10:33 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.24 16:10:35 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.24 16:10:35 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.24 16:10:35 INFO  time: indexed workspace in 4.88s
+2023.10.24 16:10:36 INFO  compiling root (13 scala sources and 1 java source)
+2023.10.24 16:10:39 INFO  time: compiled root in 3.05s
+2023.10.24 16:10:39 INFO  compiling root (13 scala sources and 1 java source)
+2023.10.24 16:10:40 INFO  time: compiled root in 1.14s
+Okt. 24, 2023 4:28:24 NACHM. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMATION: Unsupported notification method: $/setTrace
+2023.10.24 16:38:40 INFO  Shutting down server
+2023.10.24 16:38:40 INFO  shutting down Metals
+2023.10.24 16:38:40 INFO  Shut down connection with build server.
+2023.10.24 16:38:40 INFO  Shut down connection with build server.
+2023.10.24 16:38:40 INFO  Shut down connection with build server.
+2023.10.24 16:38:40 INFO  Exiting server
+2023.10.25 13:04:27 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.25 13:04:28 INFO  Attempting to connect to the build server...
+2023.10.25 13:04:28 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.25 13:04:28 INFO  skipping build import with status 'Installed'
+2023.10.25 13:04:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.25 13:04:31 INFO  Attempting to connect to the build server...
+2023.10.25 13:04:31 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.25 13:04:31 INFO  Attempting to connect to the build server...
+2023.10.25 13:04:31 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.25 13:04:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.25 13:04:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.25 13:04:31 INFO  time: Connected to build server in 3.78s
+2023.10.25 13:04:31 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.25 13:04:31 INFO  time: Imported build in 0.26s
+2023.10.25 13:04:35 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.25 13:04:35 INFO  Shutting down server
+2023.10.25 13:04:35 INFO  shutting down Metals
+2023.10.25 13:04:35 INFO  Shut down connection with build server.
+2023.10.25 13:04:35 INFO  Shut down connection with build server.
+2023.10.25 13:04:35 INFO  Shut down connection with build server.
+2023.10.25 13:04:35 INFO  Exiting server
+2023.10.29 22:32:09 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.29 22:32:12 INFO  Attempting to connect to the build server...
+2023.10.29 22:32:12 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 22:32:12 INFO  skipping build import with status 'Installed'
+2023.10.29 22:32:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 22:32:16 INFO  Attempting to connect to the build server...
+2023.10.29 22:32:16 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 22:32:16 INFO  Attempting to connect to the build server...
+2023.10.29 22:32:16 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 22:32:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 22:32:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 22:32:16 INFO  time: Connected to build server in 3.99s
+2023.10.29 22:32:16 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.29 22:32:16 INFO  time: Imported build in 0.26s
+2023.10.29 22:32:20 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.29 22:32:22 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.29 22:32:22 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.29 22:32:22 INFO  time: indexed workspace in 5.72s
+2023.10.29 22:33:52 INFO  compiling root (13 scala sources and 1 java source)
+2023.10.29 22:33:55 INFO  time: compiled root in 2.81s
+2023.10.29 22:42:50 INFO  compiling root (14 scala sources and 1 java source)
+2023.10.29 22:42:51 INFO  time: compiled root in 1.76s
+2023.10.29 22:43:02 INFO  Shutting down server
+2023.10.29 22:43:02 INFO  shutting down Metals
+2023.10.29 22:43:02 INFO  Shut down connection with build server.
+2023.10.29 22:43:02 INFO  Shut down connection with build server.
+2023.10.29 22:43:02 INFO  Shut down connection with build server.
+2023.10.29 22:43:02 INFO  Exiting server
+2023.10.29 22:43:22 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.29 22:43:24 INFO  Attempting to connect to the build server...
+2023.10.29 22:43:24 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 22:43:24 INFO  skipping build import with status 'Installed'
+2023.10.29 22:43:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 22:43:24 INFO  Attempting to connect to the build server...
+2023.10.29 22:43:24 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 22:43:24 INFO  Attempting to connect to the build server...
+2023.10.29 22:43:24 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 22:43:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 22:43:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 22:43:24 INFO  time: Connected to build server in 0.94s
+2023.10.29 22:43:24 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.29 22:43:25 INFO  time: Imported build in 0.47s
+2023.10.29 22:43:30 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.29 22:43:30 INFO  Shutting down server
+2023.10.29 22:43:30 INFO  shutting down Metals
+2023.10.29 22:43:30 INFO  Shut down connection with build server.
+2023.10.29 22:43:30 INFO  Shut down connection with build server.
+2023.10.29 22:43:30 INFO  Shut down connection with build server.
+2023.10.29 22:43:30 INFO  Exiting server
+2023.10.29 23:21:09 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.29 23:21:10 INFO  Attempting to connect to the build server...
+2023.10.29 23:21:10 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 23:21:10 INFO  skipping build import with status 'Installed'
+2023.10.29 23:21:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 23:21:10 INFO  Attempting to connect to the build server...
+2023.10.29 23:21:10 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 23:21:10 INFO  Attempting to connect to the build server...
+2023.10.29 23:21:10 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.29 23:21:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 23:21:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.29 23:21:11 INFO  time: Connected to build server in 0.92s
+2023.10.29 23:21:11 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.29 23:21:11 INFO  time: Imported build in 0.12s
+2023.10.29 23:21:14 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.29 23:21:16 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.29 23:21:16 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.29 23:21:16 INFO  time: indexed workspace in 4.91s
+2023.10.29 23:21:16 INFO  Shutting down server
+2023.10.29 23:21:16 INFO  shutting down Metals
+2023.10.29 23:21:16 INFO  Shut down connection with build server.
+2023.10.29 23:21:16 INFO  Shut down connection with build server.
+2023.10.29 23:21:16 INFO  Shut down connection with build server.
+Okt. 29, 2023 11:21:16 NACHM. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFORMATION: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(Unknown Source)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Unknown Source)
+	at java.base/java.nio.channels.Channels.writeFully(Unknown Source)
+	at java.base/java.nio.channels.Channels$1.write(Unknown Source)
+	at java.base/java.io.OutputStream.write(Unknown Source)
+	at java.base/java.nio.channels.Channels$1.write(Unknown Source)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(Unknown Source)
+	at java.base/java.io.FilterOutputStream.write(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.10.29 23:21:16 INFO  Failed to run request with params ScalaTestClassesResult
+2023.10.30 00:15:36 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.10.30 00:15:41 INFO  Attempting to connect to the build server...
+2023.10.30 00:15:41 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.30 00:15:41 INFO  skipping build import with status 'Installed'
+2023.10.30 00:15:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.30 00:15:41 INFO  Attempting to connect to the build server...
+2023.10.30 00:15:41 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.30 00:15:41 INFO  Attempting to connect to the build server...
+2023.10.30 00:15:41 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.10.30 00:15:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.30 00:15:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.10.30 00:15:42 INFO  time: Connected to build server in 0.81s
+2023.10.30 00:15:42 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.30 00:15:42 INFO  time: Imported build in 0.1s
+Okt. 30, 2023 12:15:45 VORM. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMATION: Unsupported notification method: $/setTrace
+2023.10.30 00:15:45 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.30 00:15:48 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.30 00:15:48 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.10.30 00:15:48 INFO  time: indexed workspace in 5.96s
+2023.10.30 00:16:22 INFO  compiling root (14 scala sources and 1 java source)
+2023.10.30 00:16:22 INFO  time: compiled root in 0.7s
+2023.10.30 00:16:58 INFO  compiling root (14 scala sources and 1 java source)
+2023.10.30 00:16:58 INFO  time: compiled root in 0.3s
+2023.10.30 00:17:26 INFO  Shutting down server
+2023.10.30 00:17:26 INFO  shutting down Metals
+2023.10.30 00:17:27 INFO  Shut down connection with build server.
+2023.10.30 00:17:27 INFO  Shut down connection with build server.
+2023.10.30 00:17:27 INFO  Shut down connection with build server.
+2023.10.30 00:17:26 INFO  Exiting server
+2023.11.01 15:53:20 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.83.1.
+2023.11.01 15:53:22 INFO  Attempting to connect to the build server...
+2023.11.01 15:53:22 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.01 15:53:22 INFO  skipping build import with status 'Installed'
+2023.11.01 15:53:25 INFO  no build target found for C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.01 15:53:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.01 15:53:25 INFO  Attempting to connect to the build server...
+2023.11.01 15:53:25 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.01 15:53:25 INFO  Attempting to connect to the build server...
+2023.11.01 15:53:25 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.01 15:53:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.01 15:53:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.01 15:53:26 INFO  time: Connected to build server in 4.16s
+2023.11.01 15:53:26 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.01 15:53:27 INFO  time: Imported build in 0.45s
+2023.11.01 15:53:29 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.01 15:53:31 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.01 15:53:31 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.01 15:53:31 INFO  time: indexed workspace in 4.05s
+2023.11.01 15:53:37 INFO  Shutting down server
+2023.11.01 15:53:37 INFO  shutting down Metals
+2023.11.01 15:53:37 INFO  Shut down connection with build server.
+2023.11.01 15:53:37 INFO  Shut down connection with build server.
+2023.11.01 15:53:37 INFO  Shut down connection with build server.
+Nov. 01, 2023 3:53:37 NACHM. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFORMATION: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(Unknown Source)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Unknown Source)
+	at java.base/java.nio.channels.Channels.writeFully(Unknown Source)
+	at java.base/java.nio.channels.Channels$1.write(Unknown Source)
+	at java.base/java.io.OutputStream.write(Unknown Source)
+	at java.base/java.nio.channels.Channels$1.write(Unknown Source)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(Unknown Source)
+	at java.base/java.io.FilterOutputStream.write(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.11.01 15:53:37 INFO  Cancelling compilation on Bloop server
+2023.11.01 15:53:37 INFO  Exiting server
+2023.11.03 15:32:51 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.84.0.
+2023.11.03 15:32:53 INFO  Attempting to connect to the build server...
+2023.11.03 15:32:53 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.03 15:32:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.03 15:32:53 INFO  Attempting to connect to the build server...
+2023.11.03 15:32:53 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.03 15:32:53 INFO  Attempting to connect to the build server...
+2023.11.03 15:32:53 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.03 15:32:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.03 15:32:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.03 15:32:53 INFO  time: Connected to build server in 0.61s
+2023.11.03 15:32:53 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.03 15:32:55 INFO  running 'C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ju200\AppData\Local\Temp\metals6032939517817779356\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.03 15:32:56 INFO  no build target found for C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.03 15:32:56 INFO  time: Imported build in 0.2s
+2023.11.03 15:32:57 INFO  sbt thinks that server is already booting because of this exception:
+2023.11.03 15:32:57 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8289393873222426757_lock, error 5
+2023.11.03 15:32:57 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2023.11.03 15:32:57 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2023.11.03 15:32:57 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:152)
+2023.11.03 15:32:57 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:78)
+2023.11.03 15:32:57 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:78)
+2023.11.03 15:32:57 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:86)
+2023.11.03 15:32:57 ERROR 	at sbt.xMain$.run(Main.scala:123)
+2023.11.03 15:32:57 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023.11.03 15:32:57 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2023.11.03 15:32:57 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2023.11.03 15:32:57 ERROR 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+2023.11.03 15:32:57 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2023.11.03 15:32:57 ERROR 	at sbt.xMain.run(Main.scala:47)
+2023.11.03 15:32:57 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2023.11.03 15:32:57 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2023.11.03 15:32:57 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2023.11.03 15:32:57 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2023.11.03 15:32:57 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2023.11.03 15:32:57 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2023.11.03 15:32:57 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2023.11.03 15:32:57 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2023.11.03 15:32:57 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2023.11.03 15:32:57 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2023.11.03 15:32:57 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2023.11.03 15:32:57 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8289393873222426757_lock, error 5
+2023.11.03 15:32:57 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2023.11.03 15:32:57 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2023.11.03 15:32:57 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2023.11.03 15:32:57 ERROR 	... 23 more
+2023.11.03 15:32:57 INFO  time: ran 'sbt bloopInstall' in 1.91s
+2023.11.03 15:32:57 ERROR sbt command failed: C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ju200\AppData\Local\Temp\metals6032939517817779356\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.11.03 15:32:57 INFO  Disconnecting from Bloop session...
+2023.11.03 15:32:57 INFO  Shut down connection with build server.
+2023.11.03 15:32:57 INFO  Shut down connection with build server.
+2023.11.03 15:32:57 INFO  Shut down connection with build server.
+2023.11.03 15:32:57 INFO  Attempting to connect to the build server...
+2023.11.03 15:32:57 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.03 15:32:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.03 15:32:57 INFO  Attempting to connect to the build server...
+2023.11.03 15:32:57 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.03 15:32:57 INFO  Attempting to connect to the build server...
+2023.11.03 15:32:57 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.03 15:32:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.03 15:32:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.03 15:32:57 INFO  time: Connected to build server in 80ms
+2023.11.03 15:32:57 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.03 15:32:57 INFO  time: Imported build in 0.12s
+2023.11.03 15:33:00 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.03 15:33:00 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.03 15:33:02 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.03 15:33:02 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.03 15:33:02 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.03 15:33:02 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.03 15:33:02 INFO  time: indexed workspace in 5.11s
+2023.11.03 15:33:02 INFO  time: indexed workspace in 6.25s
+2023.11.03 15:33:03 INFO  compiling root (14 scala sources and 1 java source)
+2023.11.03 15:33:09 INFO  time: compiled root in 6.01s
+2023.11.03 15:33:09 INFO  compiling root (14 scala sources and 1 java source)
+error: C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\.tmp\.metals\.tmp\Main3384494667922729144.scala is not a file
+2023.11.03 15:33:10 INFO  time: compiled root in 1.44s
+2023.11.03 15:33:12 INFO  time: code lens generation in 3.1s
+2023.11.03 15:33:12 INFO  time: code lens generation in 3.78s
+2023.11.03 15:33:12 INFO  time: code lens generation in 3.61s
+2023.11.03 15:33:17 INFO  running 'C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ju200\AppData\Local\Temp\metals15262151804019231317\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.03 15:33:18 INFO  [info] welcome to sbt 1.9.6 (OpenLogic Java 11.0.18)
+2023.11.03 15:33:20 INFO  [info] loading global plugins from C:\Users\ju200\.sbt\1.0\plugins
+2023.11.03 15:33:21 INFO  [info] loading settings for project web-app4gewinntplay-build-build-build from metals.sbt ...
+2023.11.03 15:33:21 INFO  [info] loading project definition from C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\project
+2023.11.03 15:33:21 INFO  [info] loading settings for project web-app4gewinntplay-build-build from metals.sbt ...
+2023.11.03 15:33:21 INFO  [info] loading project definition from C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project
+2023.11.03 15:33:23 INFO  [success] Generated .bloop\web-app4gewinntplay-build-build.json
+2023.11.03 15:33:23 INFO  [success] Total time: 2 s, completed 03.11.2023, 15:33:23
+2023.11.03 15:33:23 INFO  [info] loading settings for project web-app4gewinntplay-build from metals.sbt,plugins.sbt ...
+2023.11.03 15:33:23 INFO  [info] loading project definition from C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project
+2023.11.03 15:33:24 INFO  [success] Generated .bloop\web-app4gewinntplay-build.json
+2023.11.03 15:33:24 INFO  [success] Total time: 1 s, completed 03.11.2023, 15:33:24
+2023.11.03 15:33:24 INFO  [info] loading settings for project root from build.sbt ...
+2023.11.03 15:33:24 INFO  [info]   __              __
+2023.11.03 15:33:24 INFO  [info]   \ \     ____   / /____ _ __  __
+2023.11.03 15:33:24 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2023.11.03 15:33:24 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2023.11.03 15:33:24 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2023.11.03 15:33:24 INFO  [info]       /_/               /____/
+2023.11.03 15:33:24 INFO  [info] 
+2023.11.03 15:33:24 INFO  [info] Version 2.9.0-RC3 running Java 11.0.18
+2023.11.03 15:33:24 INFO  [info] 
+2023.11.03 15:33:24 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2023.11.03 15:33:24 INFO  [info] https://www.playframework.com/sponsors
+2023.11.03 15:33:24 INFO  [info] 
+2023.11.03 15:33:26 INFO  compiling root (14 scala sources and 1 java source)
+2023.11.03 15:33:26 INFO  time: compiled root in 0.53s
+2023.11.03 15:33:26 INFO  compiling root (14 scala sources and 1 java source)
+2023.11.03 15:33:27 INFO  [warn] 
+2023.11.03 15:33:27 INFO  [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+2023.11.03 15:33:27 INFO  [warn] 		com.typesafe.sbt:sbt-less:1.1.2 (sbtVersion=1.0, scalaVersion=2.13)
+2023.11.03 15:33:27 INFO  [warn] 
+2023.11.03 15:33:27 INFO  [warn] 	Note: Unresolved dependencies path:
+2023.11.03 15:33:27 INFO  [error] Couldn't run bloopGenerate. Cause: Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),scalaInstance)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)
+2023.11.03 15:33:27 INFO  [error] Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(test)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(test)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(test)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(test)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(test)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(test)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),scalaInstance)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/,root)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)
+2023.11.03 15:33:27 INFO  [warn] Removed stale C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.bloop\root-test.json
+2023.11.03 15:33:27 INFO  [warn] Removed stale C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.bloop\root.json
+2023.11.03 15:33:27 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom
+2023.11.03 15:33:27 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+2023.11.03 15:33:27 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+2023.11.03 15:33:27 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2023.11.03 15:33:27 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:134)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:147)
+2023.11.03 15:33:27 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:147)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:128)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:161)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3801)
+2023.11.03 15:33:27 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2023.11.03 15:33:27 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+2023.11.03 15:33:27 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+2023.11.03 15:33:27 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+2023.11.03 15:33:27 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+2023.11.03 15:33:27 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2023.11.03 15:33:27 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2023.11.03 15:33:27 INFO  [error] 	at java.base/java.lang.Thread.run(Unknown Source)
+2023.11.03 15:33:27 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.13:1.1.2
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   Not found
+2023.11.03 15:33:27 INFO  [error]   not found: C:\Users\ju200\.ivy2\localcom.typesafe.sbt\sbt-less\scala_2.13\sbt_1.0\1.1.2\ivys\ivy.xml
+2023.11.03 15:33:27 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.13_1.0/1.1.2/sbt-less-1.1.2.pom
+2023.11.03 15:33:27 INFO  [error] Total time: 2 s, completed 03.11.2023, 15:33:27
+2023.11.03 15:33:27 INFO  time: ran 'sbt bloopInstall' in 10s
+2023.11.03 15:33:27 ERROR sbt command failed: C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ju200\AppData\Local\Temp\metals15262151804019231317\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.11.03 15:33:27 INFO  Disconnecting from Bloop session...
+2023.11.03 15:33:27 INFO  Shut down connection with build server.
+2023.11.03 15:33:27 INFO  Shut down connection with build server.
+2023.11.03 15:33:27 INFO  Cancelling compilation on Bloop server
+2023.11.03 15:33:27 INFO  time: compiled root in 0.74s
+2023.11.03 15:33:27 ERROR No project associated with Uri(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/?id=root)
+2023.11.03 15:33:27 INFO  Shut down connection with build server.
+2023.11.03 15:33:27 ERROR No project associated with Uri(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/?id=root)
+2023.11.03 15:33:27 ERROR No project associated with Uri(file:/C:/Users/ju200/Documents/HTWG/Web-App/web-app4gewinntplay/?id=root)
+Nov. 03, 2023 3:33:27 NACHM. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFORMATION: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(Unknown Source)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Unknown Source)
+	at java.base/java.nio.channels.Channels.writeFully(Unknown Source)
+	at java.base/java.nio.channels.Channels$1.write(Unknown Source)
+	at java.base/java.io.OutputStream.write(Unknown Source)
+	at java.base/java.nio.channels.Channels$1.write(Unknown Source)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(Unknown Source)
+	at java.base/java.io.FilterOutputStream.write(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.11.03 15:33:27 INFO  Bloop should support `buildTarget/jvmRunEnvironment`, but it fails.
+2023.11.03 15:33:27 INFO  Attempting to connect to the build server...
+2023.11.03 15:33:27 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.03 15:33:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.03 15:33:27 INFO  Attempting to connect to the build server...
+2023.11.03 15:33:27 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.03 15:33:27 INFO  Attempting to connect to the build server...
+2023.11.03 15:33:27 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.03 15:33:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.03 15:33:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.03 15:33:27 INFO  time: Connected to build server in 80ms
+2023.11.03 15:33:27 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.03 15:33:27 ERROR Build server error: Empty build targets. Expected at least one build target identifier.
+2023.11.03 15:33:28 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.03 15:33:28 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.03 15:33:28 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.03 15:33:28 INFO  time: indexed workspace in 1.15s
+2023.11.03 15:33:36 INFO  Shutting down server
+2023.11.03 15:33:36 INFO  shutting down Metals
+2023.11.03 15:33:36 INFO  Shut down connection with build server.
+2023.11.03 15:33:36 INFO  Shut down connection with build server.
+2023.11.03 15:33:36 INFO  Shut down connection with build server.
+2023.11.03 15:33:36 INFO  Exiting server
+2023.11.10 11:19:33 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.84.1.
+2023.11.10 11:19:34 INFO  Attempting to connect to the build server...
+2023.11.10 11:19:34 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.10 11:19:36 INFO  no build target found for C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\build.sbt. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.10 11:19:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 11:19:37 INFO  Attempting to connect to the build server...
+2023.11.10 11:19:37 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.10 11:19:37 INFO  Attempting to connect to the build server...
+2023.11.10 11:19:37 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.10 11:19:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 11:19:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 11:19:37 INFO  time: Connected to build server in 3.06s
+2023.11.10 11:19:37 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.10 11:19:37 ERROR Build server error: Empty build targets. Expected at least one build target identifier.
+2023.11.10 11:19:37 INFO  time: Imported build in 0.13s
+2023.11.10 11:19:37 INFO  running 'C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ju200\AppData\Local\Temp\metals9809786177946143220\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.10 11:19:39 INFO  sbt thinks that server is already booting because of this exception:
+2023.11.10 11:19:39 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8289393873222426757_lock, error 5
+2023.11.10 11:19:39 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2023.11.10 11:19:39 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2023.11.10 11:19:39 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:152)
+2023.11.10 11:19:39 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:78)
+2023.11.10 11:19:39 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:78)
+2023.11.10 11:19:39 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:86)
+2023.11.10 11:19:39 ERROR 	at sbt.xMain$.run(Main.scala:123)
+2023.11.10 11:19:39 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023.11.10 11:19:39 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2023.11.10 11:19:39 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2023.11.10 11:19:39 ERROR 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+2023.11.10 11:19:39 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2023.11.10 11:19:39 ERROR 	at sbt.xMain.run(Main.scala:47)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2023.11.10 11:19:39 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2023.11.10 11:19:39 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8289393873222426757_lock, error 5
+2023.11.10 11:19:39 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2023.11.10 11:19:39 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2023.11.10 11:19:39 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2023.11.10 11:19:39 ERROR 	... 23 more
+2023.11.10 11:19:39 INFO  time: ran 'sbt bloopInstall' in 1.17s
+2023.11.10 11:19:39 ERROR sbt command failed: C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ju200\AppData\Local\Temp\metals9809786177946143220\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.11.10 11:19:39 INFO  Disconnecting from Bloop session...
+2023.11.10 11:19:39 INFO  Shut down connection with build server.
+2023.11.10 11:19:39 INFO  Shut down connection with build server.
+2023.11.10 11:19:39 INFO  Shut down connection with build server.
+2023.11.10 11:19:39 INFO  Attempting to connect to the build server...
+2023.11.10 11:19:39 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.10 11:19:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 11:19:39 INFO  Attempting to connect to the build server...
+2023.11.10 11:19:39 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.10 11:19:39 INFO  Attempting to connect to the build server...
+2023.11.10 11:19:39 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.10 11:19:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 11:19:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 11:19:39 INFO  time: Connected to build server in 86ms
+2023.11.10 11:19:39 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.10 11:19:39 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.10 11:19:40 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.10 11:19:39 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.10 11:19:39 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.10 11:19:39 INFO  time: indexed workspace in 3.02s
+2023.11.10 11:19:40 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.10 11:19:40 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.10 11:19:40 INFO  time: indexed workspace in 1.83s
+2023.11.10 11:19:44 INFO  time: code lens generation in 2.82s
+2023.11.10 11:19:44 INFO  time: code lens generation in 2.4s
+2023.11.10 11:19:44 INFO  time: code lens generation in 2.82s
+2023.11.10 11:19:44 INFO  time: code lens generation in 2.82s
+2023.11.10 11:20:47 INFO  Shutting down server
+2023.11.10 11:20:47 INFO  shutting down Metals
+2023.11.10 11:20:47 INFO  Shut down connection with build server.
+2023.11.10 11:20:47 INFO  Shut down connection with build server.
+2023.11.10 11:20:47 INFO  Shut down connection with build server.
+2023.11.10 11:20:47 INFO  Exiting server
+2023.11.10 13:19:29 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.84.2.
+2023.11.10 13:19:31 INFO  Attempting to connect to the build server...
+2023.11.10 13:19:31 INFO  skipping build import with status 'Failed'
+2023.11.10 13:19:31 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.10 13:19:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 13:19:31 INFO  Attempting to connect to the build server...
+2023.11.10 13:19:31 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.10 13:19:31 INFO  Attempting to connect to the build server...
+2023.11.10 13:19:31 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.10 13:19:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 13:19:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.10 13:19:31 INFO  time: Connected to build server in 0.55s
+2023.11.10 13:19:31 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.10 13:19:33 INFO  Shutting down server
+2023.11.10 13:19:33 INFO  shutting down Metals
+2023.11.10 13:19:33 INFO  Shut down connection with build server.
+2023.11.10 13:19:33 INFO  Shut down connection with build server.
+2023.11.10 13:19:33 INFO  Shut down connection with build server.
+2023.11.10 13:19:34 INFO  no build target found for C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\build.sbt. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.10 13:19:34 INFO  Exiting server
+2023.11.13 14:07:06 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.84.2.
+2023.11.13 14:07:10 INFO  Attempting to connect to the build server...
+2023.11.13 14:07:10 INFO  skipping build import with status 'Failed'
+2023.11.13 14:07:10 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.13 14:07:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.13 14:07:14 INFO  no build target found for C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\build.sbt. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.13 14:07:14 INFO  Attempting to connect to the build server...
+2023.11.13 14:07:14 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.13 14:07:14 INFO  Attempting to connect to the build server...
+2023.11.13 14:07:14 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.13 14:07:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.13 14:07:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.13 14:07:15 INFO  time: Connected to build server in 4.47s
+2023.11.13 14:07:15 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.13 14:07:15 ERROR Build server error: Empty build targets. Expected at least one build target identifier.
+2023.11.13 14:07:15 INFO  time: Imported build in 0.14s
+2023.11.13 14:07:16 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.13 14:07:16 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.13 14:07:16 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.13 14:07:16 INFO  time: indexed workspace in 2.08s
+2023.11.13 14:07:21 INFO  time: code lens generation in 2.78s
+2023.11.13 14:07:21 INFO  time: code lens generation in 2.78s
+2023.11.13 14:07:21 INFO  time: code lens generation in 2.78s
+2023.11.13 14:07:21 INFO  time: code lens generation in 2.36s
+2023.11.13 14:14:17 INFO  Shutting down server
+2023.11.13 14:14:17 INFO  shutting down Metals
+2023.11.13 14:14:17 INFO  Shut down connection with build server.
+2023.11.13 14:14:17 INFO  Shut down connection with build server.
+2023.11.13 14:14:17 INFO  Shut down connection with build server.
+2023.11.13 14:14:17 INFO  Exiting server
+2023.11.13 15:49:24 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.84.2.
+2023.11.13 15:49:25 INFO  Attempting to connect to the build server...
+2023.11.13 15:49:25 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.13 15:49:25 INFO  skipping build import with status 'Failed'
+2023.11.13 15:49:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.13 15:49:25 INFO  Attempting to connect to the build server...
+2023.11.13 15:49:25 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.13 15:49:25 INFO  Attempting to connect to the build server...
+2023.11.13 15:49:25 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2023.11.13 15:49:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.13 15:49:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.13 15:49:25 INFO  time: Connected to build server in 0.88s
+2023.11.13 15:49:25 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.13 15:49:25 ERROR Build server error: Empty build targets. Expected at least one build target identifier.
+2023.11.13 15:49:28 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.13 15:49:28 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.13 15:49:28 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2023.11.13 15:49:28 INFO  time: indexed workspace in 3.17s
+2023.11.13 15:49:44 INFO  Shutting down server
+2023.11.13 15:49:44 INFO  shutting down Metals
+2023.11.13 15:49:44 INFO  Shut down connection with build server.
+2023.11.13 15:49:44 INFO  Shut down connection with build server.
+2023.11.13 15:49:44 INFO  Shut down connection with build server.
+2023.11.13 15:49:44 INFO  Exiting server
+2024.01.17 14:30:15 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.85.1.
+2024.01.17 14:30:17 INFO  Attempting to connect to the build server...
+2024.01.17 14:30:17 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2024.01.17 14:30:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 14:30:19 INFO  Attempting to connect to the build server...
+2024.01.17 14:30:19 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2024.01.17 14:30:19 INFO  Attempting to connect to the build server...
+2024.01.17 14:30:19 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2024.01.17 14:30:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 14:30:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 14:30:24 INFO  time: Connected to build server in 6.94s
+2024.01.17 14:30:24 INFO  Connected to Build server: Bloop v1.5.13
+2024.01.17 14:30:24 INFO  time: Imported build in 0.17s
+2024.01.17 14:30:28 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2024.01.17 14:30:28 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2024.01.17 14:30:28 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2024.01.17 14:30:28 INFO  time: indexed workspace in 4.49s
+2024.01.17 14:41:57 INFO  Shutting down server
+2024.01.17 14:41:57 INFO  shutting down Metals
+2024.01.17 14:41:57 INFO  Shut down connection with build server.
+2024.01.17 14:41:57 INFO  Shut down connection with build server.
+2024.01.17 14:41:57 INFO  Shut down connection with build server.
+2024.01.17 14:41:57 INFO  Exiting server
+2024.01.17 14:52:17 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.85.1.
+2024.01.17 14:52:18 INFO  Attempting to connect to the build server...
+2024.01.17 14:52:18 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2024.01.17 14:52:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 14:52:18 INFO  Attempting to connect to the build server...
+2024.01.17 14:52:18 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2024.01.17 14:52:18 INFO  Attempting to connect to the build server...
+2024.01.17 14:52:18 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2024.01.17 14:52:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 14:52:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 14:52:18 INFO  time: Connected to build server in 0.34s
+2024.01.17 14:52:18 INFO  Connected to Build server: Bloop v1.5.13
+2024.01.17 14:52:18 INFO  time: Imported build in 0.14s
+2024.01.17 14:52:21 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2024.01.17 14:52:21 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2024.01.17 14:52:21 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2024.01.17 14:52:21 INFO  time: indexed workspace in 3.24s
+Jan. 17, 2024 2:52:28 NACHM. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMATION: Unsupported notification method: $/setTrace
+2024.01.17 14:53:33 INFO  Shutting down server
+2024.01.17 14:53:33 INFO  shutting down Metals
+2024.01.17 14:53:33 INFO  Shut down connection with build server.
+2024.01.17 14:53:33 INFO  Shut down connection with build server.
+2024.01.17 14:53:33 INFO  Shut down connection with build server.
+2024.01.17 14:53:33 INFO  Exiting server
+2024.01.17 14:54:16 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay' for client Visual Studio Code 1.85.1.
+2024.01.17 14:54:18 INFO  Attempting to connect to the build server...
+2024.01.17 14:54:18 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2024.01.17 14:54:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 14:54:18 INFO  Attempting to connect to the build server...
+2024.01.17 14:54:18 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2024.01.17 14:54:18 INFO  Attempting to connect to the build server...
+2024.01.17 14:54:18 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2024.01.17 14:54:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 14:54:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 14:54:18 INFO  time: Connected to build server in 0.44s
+2024.01.17 14:54:18 INFO  Connected to Build server: Bloop v1.5.13
+2024.01.17 14:54:18 INFO  time: Imported build in 0.13s
+2024.01.17 14:54:21 INFO  running 'C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ju200\AppData\Local\Temp\metals10976614242248766940\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.01.17 14:54:21 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2024.01.17 14:54:22 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8289393873222426757_lock, error 5
+2024.01.17 14:54:22 INFO  sbt thinks that server is already booting because of this exception:
+2024.01.17 14:54:22 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2024.01.17 14:54:22 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2024.01.17 14:54:22 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:152)
+2024.01.17 14:54:22 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:78)
+2024.01.17 14:54:22 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:78)
+2024.01.17 14:54:22 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:86)
+2024.01.17 14:54:22 ERROR 	at sbt.xMain$.run(Main.scala:123)
+2024.01.17 14:54:22 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2024.01.17 14:54:22 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2024.01.17 14:54:22 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2024.01.17 14:54:22 ERROR 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+2024.01.17 14:54:22 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2024.01.17 14:54:22 ERROR 	at sbt.xMain.run(Main.scala:47)
+2024.01.17 14:54:22 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2024.01.17 14:54:22 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2024.01.17 14:54:22 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2024.01.17 14:54:22 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2024.01.17 14:54:22 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2024.01.17 14:54:22 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2024.01.17 14:54:22 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2024.01.17 14:54:22 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2024.01.17 14:54:22 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2024.01.17 14:54:22 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2024.01.17 14:54:22 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2024.01.17 14:54:22 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load8289393873222426757_lock, error 5
+2024.01.17 14:54:22 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2024.01.17 14:54:22 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2024.01.17 14:54:22 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2024.01.17 14:54:22 ERROR 	... 23 more
+2024.01.17 14:54:22 INFO  time: ran 'sbt bloopInstall' in 1.48s
+2024.01.17 14:54:22 ERROR sbt command failed: C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ju200\AppData\Local\Temp\metals10976614242248766940\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2024.01.17 14:54:22 INFO  Disconnecting from Bloop session...
+2024.01.17 14:54:22 INFO  Shut down connection with build server.
+2024.01.17 14:54:22 INFO  Shut down connection with build server.
+2024.01.17 14:54:22 INFO  Shut down connection with build server.
+2024.01.17 14:54:22 INFO  Attempting to connect to the build server...
+2024.01.17 14:54:22 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2024.01.17 14:54:22 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2024.01.17 14:54:22 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2024.01.17 14:54:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 14:54:22 INFO  time: indexed workspace in 3.55s
+2024.01.17 14:54:22 INFO  Attempting to connect to the build server...
+2024.01.17 14:54:22 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2024.01.17 14:54:22 INFO  Attempting to connect to the build server...
+2024.01.17 14:54:22 INFO  Bloop uses C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot defined at C:\Users\ju200\.bloop\bloop.json
+2024.01.17 14:54:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 14:54:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\project\.metals\bsp.trace.json or C:\Users\ju200\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 14:54:22 INFO  time: Connected to build server in 0.15s
+2024.01.17 14:54:22 INFO  Connected to Build server: Bloop v1.5.13
+2024.01.17 14:54:22 INFO  time: Imported build in 0.33s
+2024.01.17 14:54:26 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2024.01.17 14:54:26 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2024.01.17 14:54:26 WARN  Could not find java sources in C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip, C:\Program Files\OpenJDK\src.zip, C:\Program Files\OpenJDK\lib\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\src.zip, C:\Program Files\OpenJDK\jre-11.0.18.10-hotspot\lib\src.zip. Java symbols will not be available.
+2024.01.17 14:54:26 INFO  time: indexed workspace in 2.2s
+2024.01.17 14:54:41 WARN  no build target for: C:\Users\ju200\Documents\HTWG\Web-App\web-app4gewinntplay\app\controllers\HomeController.scala
