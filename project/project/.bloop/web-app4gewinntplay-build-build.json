@@ -213,7 +213,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Users\\ju200\\.jdks\\openjdk-20",
+                "home": "C:\\Program Files\\OpenJDK\\jre-11.0.18.10-hotspot",
                 "options": [
                     "-Duser.dir=C:\\Users\\ju200\\Documents\\HTWG\\Web-App\\web-app4gewinntplay\\project\\project"
                 ]
